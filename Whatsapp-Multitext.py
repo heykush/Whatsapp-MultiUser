@@ -1,7 +1,7 @@
 from selenium import webdriver
 from time import sleep
 
-driver = webdriver.Chrome(r"C:\Python\chromedriver.exe")
+driver = webdriver.Chrome()  #Give the path of Chrome driver    
 driver.maximize_window()                        
 driver.get('https://web.whatsapp.com/')
 
