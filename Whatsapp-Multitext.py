@@ -10,7 +10,7 @@ if __name__ == "__main__":
         input('Enter anything after scanning QR code..  Hit ENTER to start')
 
         names = []  
-        na=input("Enter your Friend's name and Number: ")
+        na=input("Enter your Friend's name: ")
         cap=na.title()                                      
         names.extend(cap.split(","))                         
         msg = str(input("Enter your message: "))
