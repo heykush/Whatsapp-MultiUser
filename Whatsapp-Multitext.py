@@ -24,5 +24,5 @@ if __name__ == "__main__":
 
         for i in range(count):
             msg_box.send_keys(msg)
-            button = driver.find_element_by_xpath('//button[@class="_35EW6"]').click()
+            button = driver.find_element_by_xpath('//button[@class="_1U1xa"]').click()
         
